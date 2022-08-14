@@ -4,6 +4,7 @@ body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
 }
 ul {
     list-style: none;
@@ -17,6 +18,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 20px 80px;
 }
 .header span {
     display: flex;
@@ -27,17 +29,35 @@ ul {
     justify-content: space-between;
     gap: 10px;
 }
+.header-link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .hero-img {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.hero-txt {
+    margin-right: 30px;
+}
+.hero-txt h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9f1f8;
+}
+.hero-txt p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 .main-container {
     display: flex;
     flex-direction: column;
+    background-color: #ffffff;
 }
 .cards-container {
     display: flex;
@@ -51,9 +71,47 @@ ul {
 .cards {
     width: 250px;
 }
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    font-style: italic;
+    background-color: #e5e7eb;
+    padding: 20px 0px;
+}
+.quote-container p {
+    width: 650px;
+    text-align: left;
+}
+.quote-txt {
+    padding-left: 19em;
+}
+.contact-container {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.contact-container button {
+    color: #ffffff;
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.contact:first-child {
+    font-weight: bold;
+}
 footer {
     height: 70px;
-    background-color: aliceblue;
+    background-color: #1f2937;
 }
 .footer-wrapper {
     display: flex;
