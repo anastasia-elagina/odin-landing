@@ -27,15 +27,24 @@ ul {
 .header ul {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 .header-link {
     font-size: 18px;
     color: #e5e7eb;
 }
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+    color: #ffffff;
 }
 .hero-img {
     display: flex;
@@ -49,10 +58,19 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #f9f1f8;
+    margin-bottom: 25px;
 }
 .hero-txt p {
     font-size: 18px;
     color: #e5e7eb;
+}
+.hero-txt button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 15px;
 }
 .main-container {
     display: flex;
@@ -65,11 +83,22 @@ ul {
 }
 .cards-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
+    padding: 0px 10px;
+}
+.cards-container h3 {
+    text-align: center;
+    font-size: 36px;
 }
 .cards {
     width: 250px;
+}
+.cards p {
+    text-align: justify;
+}
+.cards img {
+    border-radius: 5px;
 }
 .quote-container {
     display: flex;
@@ -79,6 +108,8 @@ ul {
     font-style: italic;
     background-color: #e5e7eb;
     padding: 20px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .quote-container p {
     width: 650px;
@@ -86,6 +117,7 @@ ul {
 }
 .quote-txt {
     padding-left: 19em;
+    font-weight: bold;
 }
 .contact-container {
     width: 60%;
@@ -105,9 +137,14 @@ ul {
     border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 5px 15px;
-}
-.contact:first-child {
     font-weight: bold;
+}
+.contact-text {
+    font-weight: bold;
+}
+.contact p {
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 footer {
     height: 70px;
@@ -116,4 +153,20 @@ footer {
 .footer-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.footer-wrapper a {
+    color: #ffffff;
+}
+ a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+button:hover {
+    opacity: 50%;
+    cursor:grab/pointer;
 }
